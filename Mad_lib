@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Mad Lib</title>
+</head>
+
+<body>
+ <background-color:#8895E2>
+	<p>Ecuador is the most wonderful place to visit because of its variety of weather and its beautiful nature. Visitors to Ecuador can find any weather they like. They can find cool temperatures and also they can find warm weather temperatures the same day. They can find places that are difficult for humans to live in the summer because they are so hot like the Amazon. On the other hand, visitors can find the nature they like. They can find high mountains and low valleys. Visitors can find a huge forest, and a beautiful coast. Ecuador is the most wonderful place to visit because of its weather and nature.
+	</p>
+	<p>Ecuador is the most wonderful place to <span id="noun">[noun]</span>because of its variety of weather and its beautiful <span id="pnoun">[prural noun]</spann>. Visitors to Ecuador can find any weather they like. They can find cool temperatures and also they can find warm weather temperatures the same <span id="verb">[verb]. They can find places that are difficult for humans to live in the summer because they are so hot like the Amazon. On the other hand, visitors can find the nature they like. They can find high <span id="number">[number]</span> and low valleys. Visitors can find a huge forest, and a beautiful coast. Ecuador is the most wonderful place to visit because of its weather and nature.
+
+
+
+<script>
+     var noun = prompt("Enter a noun");
+    var pnoun = prompt("Enter a plural noun");
+    var verb  = prompt("Enter a verb");
+    var number = prompt("Enter a number");
+
+    //log out each response from the user. to make the output more readable, we'll add a string before each variable
+    document.getElementById('noun').innerHTML = noun;
+    document.getElementById('pnoun').innerHTML = pnoun;
+    document.getElementById('verb').innerHTML = verb;
+    document.getElementById('number').innerHTML = number;   
+
+</script>
+</body>
+</html>
